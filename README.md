@@ -6,13 +6,5 @@ I take some tasks from the programming course in the University of Heilbronn, Ge
 Some programs may not be written exactly as intended.
 
 !NOT FOR COMMERCIAL USE!
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
 ✌( ͡ᵔ ᴗ ͡ᵔ)✌SOOBSHOOB  heilbronn_2024
