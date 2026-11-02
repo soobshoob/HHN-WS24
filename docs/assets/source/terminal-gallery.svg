@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.0" r="0.75">
+    <stop offset="0" stop-color="#7aa2ff" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<rect width="1200" height="600" fill="url(#glow)"/>
+<rect width="1200" height="600" fill="url(#glow2)"/>
+<g>
+<rect x="60" y="48" width="520" height="506" rx="12" fill="#0b1019" stroke="#243042" stroke-width="1"/>
+<path d="M72 48.5 H568 A11.5 11.5 0 0 1 579.5 60 V82 H60.5 V60 A11.5 11.5 0 0 1 72 48.5 Z" fill="#111826"/>
+<line x1="60" y1="82" x2="580" y2="82" stroke="#1d2635"/>
+<circle cx="80" cy="65.0" r="5" fill="#2b3647"/>
+<circle cx="96" cy="65.0" r="5" fill="#2b3647"/>
+<circle cx="112" cy="65.0" r="5" fill="#2b3647"/>
+<text x="320.0" y="69.0" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">numerics &amp; validation</text>
+<text x="80" y="102" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./quadratic_equation</tspan></text>
+<text x="80" y="119.2" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter the values of a,b,c: </tspan></text>
+<text x="80" y="136.4" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#f2c46d" font-weight="600">1 2 5</tspan></text>
+<text x="80" y="153.6" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="170.79999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+<text x="80" y="187.99999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="205.19999999999996" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Roots are imaginary:</tspan></text>
+<text x="80" y="222.39999999999995" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">x1 = -1.00 + 2.00i</tspan></text>
+<text x="80" y="239.59999999999994" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">x2 = -1.00 - 2.00i</tspan></text>
+<text x="80" y="256.79999999999995" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="273.99999999999994" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+<text x="80" y="291.19999999999993" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="308.3999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="325.5999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Made by soobshoob(^_^)</tspan></text>
+<text x="80" y="342.7999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="359.9999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./dec_2_hex_conv</tspan></text>
+<text x="80" y="377.1999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter a natural number: </tspan><tspan fill="#f2c46d" font-weight="600">-5</tspan></text>
+<text x="80" y="394.39999999999986" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Error: -5 is not a natural number</tspan></text>
+<text x="80" y="411.59999999999985" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter a natural number: </tspan><tspan fill="#f2c46d" font-weight="600">48879</tspan></text>
+<text x="80" y="428.79999999999984" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Hexadecimal: BEEF</tspan></text>
+<text x="80" y="445.99999999999983" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="80" y="463.1999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./factorial_calc</tspan></text>
+<text x="80" y="480.3999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter a natural number: </tspan><tspan fill="#f2c46d" font-weight="600">0</tspan></text>
+<text x="80" y="497.5999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Error: number 0 is not natural.</tspan></text>
+<text x="80" y="514.7999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter a natural number: </tspan><tspan fill="#f2c46d" font-weight="600">10</tspan></text>
+<text x="80" y="531.9999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">10! = 3628800</tspan></text>
+</g>
+<g>
+<rect x="620" y="48" width="520" height="506" rx="12" fill="#0b1019" stroke="#243042" stroke-width="1"/>
+<path d="M632 48.5 H1128 A11.5 11.5 0 0 1 1139.5 60 V82 H620.5 V60 A11.5 11.5 0 0 1 632 48.5 Z" fill="#111826"/>
+<line x1="620" y1="82" x2="1140" y2="82" stroke="#1d2635"/>
+<circle cx="640" cy="65.0" r="5" fill="#2b3647"/>
+<circle cx="656" cy="65.0" r="5" fill="#2b3647"/>
+<circle cx="672" cy="65.0" r="5" fill="#2b3647"/>
+<text x="880.0" y="69.0" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">matrices &amp; vectors</text>
+<text x="640" y="102" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./matrix_multi</tspan></text>
+<text x="640" y="119.2" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">… prompts for 18 matrix entries …</tspan></text>
+<text x="640" y="136.4" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter 3 number: </tspan><tspan fill="#f2c46d" font-weight="600">2</tspan></text>
+<text x="640" y="153.6" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="170.79999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+<text x="640" y="187.99999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="205.19999999999996" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">[ 1.00 2.00 3.00 ]   [ 2.00 0.00 1.00 ]   [ 5.00 2.00 7.00 ]</tspan></text>
+<text x="640" y="222.39999999999995" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">[ 4.00 5.00 6.00 ] x [ 0.00 1.00 0.00 ] = [ 14.00 5.00 16.00 ]</tspan></text>
+<text x="640" y="239.59999999999994" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">[ 7.00 8.00 9.00 ]   [ 1.00 0.00 2.00 ]   [ 23.00 8.00 25.00 ]</tspan></text>
+<text x="640" y="256.79999999999995" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="273.99999999999994" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+<text x="640" y="291.19999999999993" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="308.3999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="325.5999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Made by soobshoob(^_^)</tspan></text>
+<text x="640" y="342.7999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="359.9999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./vectorproduct</tspan></text>
+<text x="640" y="377.1999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">… prompts for 6 coordinates …</tspan></text>
+<text x="640" y="394.39999999999986" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">[ 1.00; 2.00; 3.00] * [ 4.00; 5.00; 6.00] = 32.00</tspan></text>
+<text x="640" y="411.59999999999985" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="640" y="428.79999999999984" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./Panel_game_re  # first answers</tspan></text>
+<text x="640" y="445.99999999999983" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Consider an integer number between 1 and 1024.</tspan></text>
+<text x="640" y="463.1999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Answer the following questions with 1 (yes) or 0 (no).</tspan></text>
+<text x="640" y="480.3999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Is your number greater than 512? </tspan><tspan fill="#f2c46d" font-weight="600">0</tspan></text>
+<text x="640" y="497.5999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Is your number greater than 256? </tspan><tspan fill="#f2c46d" font-weight="600">1</tspan></text>
+<text x="640" y="514.7999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Is your number greater than 384? </tspan><tspan fill="#f2c46d" font-weight="600">0</tspan></text>
+</g>
+</svg>
