@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.82" cy="0.12" r="0.75">
+    <stop offset="0" stop-color="#7aa2ff" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#dots)"/>
+<rect width="1200" height="630" fill="url(#glow)"/>
+<rect width="1200" height="630" fill="url(#glow2)"/>
+<text x="80" y="132" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="14" font-weight="600" fill="#7aa2ff" text-anchor="start" letter-spacing="2" opacity="1" xml:space="preserve">HHN  ·  WINTER SEMESTER 2024/25</text>
+<text x="80" y="200" font-family="'Inter','DejaVu Sans',sans-serif" font-size="54" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-1.2" opacity="1" xml:space="preserve">Programming in C</text>
+<text x="80" y="246" font-family="'Inter','DejaVu Sans',sans-serif" font-size="26" font-weight="500" fill="#7d8899" text-anchor="start" letter-spacing="-0.3" opacity="1" xml:space="preserve">Coursework solutions</text>
+<rect x="80" y="276" width="64" height="3" rx="1.5" fill="url(#accentLine)"/>
+<text x="80" y="322" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">29 console programs across nine lectures:</text>
+<text x="80" y="349" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">branching and loops, functions, arrays,</text>
+<text x="80" y="376" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">matrices, numerical methods and a</text>
+<text x="80" y="403" font-family="'Inter','DejaVu Sans',sans-serif" font-size="18" font-weight="400" fill="#aab4c2" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">two-player M,N,K game.</text>
+<rect x="80" y="440" width="63.0" height="27" rx="13.5" fill="#7aa2ff" fill-opacity="0.08" stroke="#7aa2ff" stroke-opacity="0.35"/><text x="92" y="456" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">loops</text>
+<rect x="151.0" y="440" width="94.2" height="27" rx="13.5" fill="#7aa2ff" fill-opacity="0.08" stroke="#7aa2ff" stroke-opacity="0.35"/><text x="163.0" y="456" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">functions</text>
+<rect x="253.2" y="440" width="70.8" height="27" rx="13.5" fill="#7aa2ff" fill-opacity="0.08" stroke="#7aa2ff" stroke-opacity="0.35"/><text x="265.2" y="456" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">arrays</text>
+<rect x="332.0" y="440" width="86.4" height="27" rx="13.5" fill="#7aa2ff" fill-opacity="0.08" stroke="#7aa2ff" stroke-opacity="0.35"/><text x="344.0" y="456" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">matrices</text>
+<rect x="426.4" y="440" width="102.0" height="27" rx="13.5" fill="#7aa2ff" fill-opacity="0.08" stroke="#7aa2ff" stroke-opacity="0.35"/><text x="438.4" y="456" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">validation</text>
+<text x="80" y="538" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">29</text>
+<text x="80" y="560" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">programs</text>
+<text x="210" y="538" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">9</text>
+<text x="210" y="560" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">lectures</text>
+<text x="340" y="538" font-family="'Inter','DejaVu Sans',sans-serif" font-size="30" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">C</text>
+<text x="340" y="560" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">gcc · clang · MinGW</text>
+<g>
+<rect x="640" y="60" width="480" height="510" rx="12" fill="#0b1019" stroke="#243042" stroke-width="1"/>
+<path d="M652 60.5 H1108 A11.5 11.5 0 0 1 1119.5 72 V94 H640.5 V72 A11.5 11.5 0 0 1 652 60.5 Z" fill="#111826"/>
+<line x1="640" y1="94" x2="1120" y2="94" stroke="#1d2635"/>
+<circle cx="660" cy="77.0" r="5" fill="#2b3647"/>
+<circle cx="676" cy="77.0" r="5" fill="#2b3647"/>
+<circle cx="692" cy="77.0" r="5" fill="#2b3647"/>
+<text x="880.0" y="81.0" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="12" font-weight="400" fill="#7d8899" text-anchor="middle" letter-spacing="0" opacity="1" xml:space="preserve">Christmas Tree — christmas_tree.c</text>
+<text x="660" y="115.5" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#7aa2ff" font-weight="700">$ </tspan><tspan fill="#d7dee8" font-weight="600">./christmas_tree</tspan></text>
+<text x="660" y="130.9" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8">Enter the height of your Christmas tree (minimum 15): </tspan><tspan fill="#f2c46d" font-weight="600">15</tspan></text>
+<text x="660" y="146.3" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="660" y="161.70000000000002" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+<text x="660" y="177.10000000000002" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="660" y="192.50000000000003" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                    *</tspan></text>
+<text x="660" y="207.90000000000003" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                   ***</tspan></text>
+<text x="660" y="223.30000000000004" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                  *****</tspan></text>
+<text x="660" y="238.70000000000005" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                 *******</tspan></text>
+<text x="660" y="254.10000000000005" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                   ***</tspan></text>
+<text x="660" y="269.50000000000006" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                  *****</tspan></text>
+<text x="660" y="284.90000000000003" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                 *******</tspan></text>
+<text x="660" y="300.3" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                *********</tspan></text>
+<text x="660" y="315.7" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">               ***********</tspan></text>
+<text x="660" y="331.09999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                 ******</tspan></text>
+<text x="660" y="346.49999999999994" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">                ********</tspan></text>
+<text x="660" y="361.8999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">               **********</tspan></text>
+<text x="660" y="377.2999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">              ************</tspan></text>
+<text x="660" y="392.6999999999999" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">             **************</tspan></text>
+<text x="660" y="408.09999999999985" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">            ****************</tspan></text>
+<text x="660" y="423.49999999999983" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">               **********</tspan></text>
+<text x="660" y="438.8999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">              ************</tspan></text>
+<text x="660" y="454.2999999999998" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">             **************</tspan></text>
+<text x="660" y="469.69999999999976" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">            ****************</tspan></text>
+<text x="660" y="485.09999999999974" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">           ******************</tspan></text>
+<text x="660" y="500.4999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">          ********************</tspan></text>
+<text x="660" y="515.8999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#9fe3a8">         **********************</tspan></text>
+<text x="660" y="531.2999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#c9a27a">                  ||||</tspan></text>
+<text x="660" y="546.6999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#d7dee8"></tspan></text>
+<text x="660" y="562.0999999999997" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11.5" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">============================================================</tspan></text>
+</g>
+</svg>

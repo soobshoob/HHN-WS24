@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e16"/><stop offset="1" stop-color="#0e1420"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.95" cy="0.0" r="0.75">
+    <stop offset="0" stop-color="#7aa2ff" stop-opacity="0.16"/>
+    <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.04"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.6">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.035"/>
+  </pattern>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7aa2ff"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+</defs>
+<style>text{font-variant-ligatures:none;font-feature-settings:"liga" 0,"calt" 0}</style>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<rect width="1200" height="750" fill="url(#dots)"/>
+<rect width="1200" height="750" fill="url(#glow)"/>
+<rect width="1200" height="750" fill="url(#glow2)"/>
+<text x="80" y="84" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="600" fill="#7aa2ff" text-anchor="start" letter-spacing="2" opacity="1" xml:space="preserve">COURSE MAP</text>
+<text x="80" y="122" font-family="'Inter','DejaVu Sans',sans-serif" font-size="28" font-weight="700" fill="#f3f6fa" text-anchor="start" letter-spacing="-0.5" opacity="1" xml:space="preserve">29 exercises, grouped by lecture</text>
+<text x="80" y="152" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="400" fill="#7d8899" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Exercise numbers follow the lecture slides; the topic labels summarise what each group of exercises practises.</text>
+<rect x="80" y="190" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="100" y="224" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L2</text>
+<text x="134" y="223" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Expressions &amp; I/O</text>
+<text x="100" y="254" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">2.1.3  </tspan><tspan fill="#b6c0cd">Braking distance</tspan></text>
+<rect x="435" y="190" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="455" y="224" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L3</text>
+<text x="489" y="223" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Branching</text>
+<text x="455" y="254" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">3.1.1  </tspan><tspan fill="#b6c0cd">Sign design</tspan></text>
+<text x="455" y="275" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">3.1.2  </tspan><tspan fill="#b6c0cd">Divisibility decider</tspan></text>
+<text x="455" y="296" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">3.1.4  </tspan><tspan fill="#b6c0cd">Mark calculator</tspan></text>
+<text x="455" y="317" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">3.1.5  </tspan><tspan fill="#b6c0cd">Panel game</tspan></text>
+<text x="455" y="338" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">3.1.6  </tspan><tspan fill="#b6c0cd">Calculator (switch)</tspan></text>
+<rect x="790" y="190" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="810" y="224" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L4</text>
+<text x="844" y="223" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Loops</text>
+<text x="810" y="254" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">4.1.1  </tspan><tspan fill="#b6c0cd">Fibonacci generator</tspan></text>
+<text x="810" y="275" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">4.1.2  </tspan><tspan fill="#b6c0cd">Prime counter</tspan></text>
+<text x="810" y="296" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">4.1.3  </tspan><tspan fill="#b6c0cd">Panel game reloaded</tspan></text>
+<rect x="80" y="372" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="100" y="406" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L5</text>
+<text x="134" y="405" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Loops &amp; validation</text>
+<text x="100" y="436" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">5.1.1  </tspan><tspan fill="#b6c0cd">Adder</tspan></text>
+<text x="100" y="457" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">5.1.2  </tspan><tspan fill="#b6c0cd">Conditional adder</tspan></text>
+<text x="100" y="478" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">5.1.3  </tspan><tspan fill="#b6c0cd">Square root (bisection)</tspan></text>
+<rect x="435" y="372" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="455" y="406" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L6</text>
+<text x="489" y="405" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Functions</text>
+<text x="455" y="436" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">6.1.1  </tspan><tspan fill="#b6c0cd">Exponent function</tspan></text>
+<text x="455" y="457" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">6.1.2  </tspan><tspan fill="#b6c0cd">Prime counter function</tspan></text>
+<rect x="790" y="372" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="810" y="406" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L7</text>
+<text x="844" y="405" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Functions (continued)</text>
+<text x="810" y="436" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">7.1.1  </tspan><tspan fill="#b6c0cd">Factorial</tspan></text>
+<text x="810" y="457" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">7.1.2  </tspan><tspan fill="#b6c0cd">Decimal → hexadecimal</tspan></text>
+<text x="810" y="478" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">7.1.3  </tspan><tspan fill="#b6c0cd">Square root reloaded</tspan></text>
+<rect x="80" y="554" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="100" y="588" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L8</text>
+<text x="134" y="587" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Arrays &amp; strings</text>
+<text x="100" y="618" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">8.1.1  </tspan><tspan fill="#b6c0cd">Maximum finder</tspan></text>
+<text x="100" y="639" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">8.1.2  </tspan><tspan fill="#b6c0cd">String inverse</tspan></text>
+<text x="100" y="660" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">8.1.3  </tspan><tspan fill="#b6c0cd">Dot product</tspan></text>
+<text x="100" y="681" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">8.1.4  </tspan><tspan fill="#b6c0cd">Matrix addition</tspan></text>
+<rect x="435" y="554" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="455" y="588" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L9</text>
+<text x="489" y="587" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">2-D arrays &amp; math</text>
+<text x="455" y="618" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">9.1.1  </tspan><tspan fill="#b6c0cd">Matrix transposition</tspan></text>
+<text x="455" y="639" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">9.1.2  </tspan><tspan fill="#b6c0cd">Quadratic equation</tspan></text>
+<text x="455" y="660" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">9.1.3  </tspan><tspan fill="#b6c0cd">Standard deviation</tspan></text>
+<text x="455" y="681" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">9.1.4  </tspan><tspan fill="#b6c0cd">Matrix multiplication</tspan></text>
+<rect x="790" y="554" width="330" height="162" rx="12" fill="#0f1521" stroke="#202a3a"/>
+<text x="810" y="588" font-family="'Inter','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#7aa2ff" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">L10</text>
+<text x="858" y="587" font-family="'Inter','DejaVu Sans',sans-serif" font-size="15" font-weight="600" fill="#d7dee8" text-anchor="start" letter-spacing="0" opacity="1" xml:space="preserve">Game logic &amp; ASCII graphics</text>
+<text x="810" y="618" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">10.1.1 </tspan><tspan fill="#b6c0cd">M,N,K game</tspan></text>
+<text x="810" y="639" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">10.1.3 </tspan><tspan fill="#b6c0cd">Star triangle</tspan></text>
+<text x="1100" y="639" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#a78bfa" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">extra</text>
+<text x="810" y="660" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">10.1.5 </tspan><tspan fill="#b6c0cd">Cut triangle</tspan></text>
+<text x="1100" y="660" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#a78bfa" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">extra</text>
+<text x="810" y="681" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="13" font-weight="400" xml:space="preserve"><tspan fill="#4b5667">10.1.6 </tspan><tspan fill="#b6c0cd">Christmas tree</tspan></text>
+<text x="1100" y="681" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#a78bfa" text-anchor="end" letter-spacing="0" opacity="1" xml:space="preserve">extra</text>
+</svg>
